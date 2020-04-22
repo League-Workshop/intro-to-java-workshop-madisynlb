@@ -9,7 +9,16 @@ public class MyFirstJavaProgram {
 		
 		// START HERE
 	
+ Robot tod = new Robot();
+		tod.penDown();
 		
+		tod.setPenColor(Color.BLUE);
 		
+	for(int i=0; i < 20; i++){
+		
+		tod.turn(360/20);
+		tod.move(100);
+		tod.setSpeed(100);
+	    }
 	}
-}
+	}
